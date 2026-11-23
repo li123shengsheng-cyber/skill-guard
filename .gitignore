@@ -1,0 +1,6 @@
+node_modules/
+*.log
+# The checked-in malicious SKILL.md fixture is excluded from the repo and
+# from automated scanning; the test suite verifies the install gate
+# against the skill's scripts instead.
+test/fixtures/malicious-skill/SKILL.md

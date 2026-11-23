@@ -1,0 +1,37 @@
+{
+  "author": "li123shengsheng-cyber",
+  "bin": {
+    "skill-guard": "./bin/skill-guard.js"
+  },
+  "description": "Scan an agent skill before you install it — plain-language verdicts (SAFE / CAUTION / DO NOT INSTALL) and a safe install gate for Claude Code skills.",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/li123shengsheng-cyber/skill-guard",
+  "keywords": [
+    "claude-code",
+    "agent-skills",
+    "security",
+    "scanner",
+    "prompt-injection",
+    "supply-chain",
+    "mcp"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "skill-guard",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/li123shengsheng-cyber/skill-guard.git"
+  },
+  "scripts": {
+    "test": "node --test test/scanner.test.js"
+  },
+  "version": "0.1.0"
+}
